@@ -13,9 +13,4 @@ editor_options:
   chunk_output_type: console
 ---
 
-# Tipos de datos
-
-1. Datos simples
-1. Datos compuestos
-1. Datos Mixtos
-
+# PROYECTO DE TESIS
