@@ -1,0 +1,53 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"TESIS\"\n",
+        "author: \"YOEL DÍAZ SAUCEDO\"\n",
+        "format:\n",
+        "  html:\n",
+        "   toc: true\n",
+        "   toc-location: left\n",
+        "   embed-resources: true\n",
+        "   number-sections: true\n",
+        "   output-file: index\n",
+        "   theme: darkly\n",
+        "editor_options: \n",
+        "  chunk_output_type: console\n",
+        "---\n",
+        "\n",
+        "\n",
+        "# Tipos de datos\n",
+        "\n",
+        "1. Datos simples\n",
+        "1. Datos compuestos\n",
+        "1. Datos Mixtos\n"
+      ],
+      "id": "fe547400"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "print(\"Hola a todos\")\n",
+        "\n",
+        "print(\"Tipos de datos en Python\")"
+      ],
+      "id": "fa8c0e7c",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
