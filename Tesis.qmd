@@ -14,3 +14,12 @@ editor_options:
 ---
 
 #  PROYECTO DE TESIS
+## Titulo
+
+
+git config --get user.name "Yoel7576"
+git config --get user.email
+
+
+git config --get user.name
+
