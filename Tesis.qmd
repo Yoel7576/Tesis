@@ -15,11 +15,18 @@ editor_options:
 
 #  PROYECTO DE TESIS
 ## Titulo
+Cultivo de mashua
 
 
-git config --get user.name "Yoel7576"
-git config --get user.email
+# git config --get user.name "Yoel7576"
+# it config --get user.email
+
+ 
+# git config --get user.name
+# git credential-manager-core erase
+# git credential-manager-core erase
 
 
-git config --get user.name
+# system("git config --get user.name")
+# datos
 
