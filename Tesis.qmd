@@ -1,5 +1,5 @@
 ---
-title: "TESIS"
+title: "PROYECTO DE TESIS"
 author: "YOEL DÍAZ SAUCEDO"
 format:
   html:
@@ -9,24 +9,54 @@ format:
    number-sections: true
    output-file: index
    theme: darkly
+   css: estilo.css
 editor_options: 
   chunk_output_type: console
 ---
 
-#  PROYECTO DE TESIS
-## Titulo
-Cultivo de mashua
+# **TITULO**
+
+Caracterización morfológica automatizada de Mashua (*Tropaeolum tuberosum*) mediante modelos de inteligencia artificial y análisis de imágenes.
+
+# PLANTEAMIENTO DEL PROBLEMA
+
+La Mashua (*Tropaeolum tuberosum*) es un tubérculo andino de reproducción vegetativa con alto valor nutricional, agronómico y fitoquímico (Arteaga-Cano et al., 2022). Sin embargo, su diversidad morfológica ha sido poco estudiada por el desinterés comercial y la falta de conservación (Pacheco Arenas, 2015).
+En un contexto de creciente digitalización y demanda de herramientas automatizadas en la agricultura, la detección basada en el aprendizaje automático se ha consolidado como el principal foco de investigación, ya que permite la medición directa y precisa de patrones morfológicos mediante el uso de inteligencia artificial (IA) y análisis de imágenes (Chen et al., 2024). Sin embargo, en el caso de la mashua, el desarrollo e implementación de este tipo de tecnologías aún es incipiente o prácticamente inexistente.
+Tradicionalmente, la evaluación de la calidad y características morfológicas de semillas y productos andinos ha dependido de métodos destructivos, lentos y basados en la experiencia de analistas, lo que limita su eficiencia y puede generar inconsistencias (ElMasry et al., 2019). 
+En este sentido, el análisis automático de imágenes combinado con modelos de aprendizaje automático ofrece una nueva perspectiva para el estudio de la diversidad morfológica de la mashua (Medeiros et al., 2020). Por tanto, el problema que se plantea es la ausencia de un sistema automatizado de gestión morfológica que utilice inteligencia artificial y análisis de datos para caracterizar de manera eficiente la diversidad de la mashua.
 
 
-# git config --get user.name "Yoel7576"
-# it config --get user.email
+# PREGUNTA DEL PROBLEMA
 
- 
-# git config --get user.name
-# git credential-manager-core erase
-# git credential-manager-core erase
+¿Cómo puede automatizarse la caracterización morfológica de la mashua (*Tropaeolum tuberosum*) mediante el uso de modelos de inteligencia artificial y análisis de imágenes?
 
 
-# system("git config --get user.name")
-# datos
+# **OBJETIVOS**
+
+## **Objetivo general**
+
+Desarrollar un sistema automatizado para la caracterización morfológica de Mashua (Tropaeolum tuberosum) mediante la aplicación de modelos de inteligencia artificial y técnicas de análisis de imágenes digitales, con el fin de contribuir a su evaluación, conservación y mejoramiento genético.
+
+## **Objetivos específicos**
+
+- Recolectar y documentar imágenes de tubérculos y estructuras vegetativas de diferentes accesiones de Mashua en distintas condiciones de cultivo.
+
+- Diseñar una metodología de procesamiento de imágenes que permita la extracción precisa de características morfológicas relevantes (forma, tamaño, color, textura, entre otras).
+
+- Implementar y entrenar modelos de inteligencia artificial (como redes neuronales convolucionales) para la clasificación y caracterización automatizada de las accesiones de Mashua.
+
+
+# REFERENCIAS BIBLIOGRAFICAS 
+
+- Arteaga-Cano, D., Chacón-Calvo, L., Samamé-Herrera, V., Valverde-Cerna, D., & Paucar-Menacho, L. M. (2022). Mashua (tropaeolum tuberosum): Composición nutricional, características químicas, compuestos bioactivos y propiedades beneficiosas para la salud. Agroindustrial Science, 12(1), Article 1. https://doi.org/10.17268/agroind.sci.2022.01.12
+
+- Chen, C., Bai, M., Wang, T., Zhang, W., Yu, H., Pang, T., Wu, J., Li, Z., & Wang, X. (2024). An RGB image dataset for seed germination prediction and vigor detection—Maize. Frontiers in Plant Science, 15. https://doi.org/10.3389/fpls.2024.1341335
+
+- ElMasry, G., Mandour, N., Wagner, M.-H., Demilly, D., Verdier, J., Belin, E., & Rousseau, D. (2019). Utilization of computer vision and multispectral imaging techniques for classification of cowpea (Vigna unguiculata) seeds. Plant Methods, 15(1), 24. https://doi.org/10.1186/s13007-019-0411-2
+
+- Medeiros, A. D. de, Pinheiro, D. T., Xavier, W. A., Silva, L. J. da, & Dias, D. C. F. dos S. (2020). Clasificación de calidad de las semillas de Jatropha curcas mediante imágenes radiográficas y aprendizaje automático. Industrial Crops and Products, 146, 112162. https://doi.org/10.1016/j.indcrop.2020.112162
+
+- Pacheco Arenas, E. S. (2015). Caracterización morfológica y molecular de mashua (Tropaeolum tuberosum Ruiz y Pavón) de los departamentos de Cusco y Cajamarca [Universidad Nacional Agraria La Molina]. https://hdl.handle.net/20.500.12996/2095
+
+
 
