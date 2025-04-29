@@ -35,7 +35,7 @@ En este sentido, el análisis automático de imágenes combinado con modelos de 
 
 ## **Objetivo general**
 
-Desarrollar un sistema automatizado para la caracterización morfológica de Mashua (Tropaeolum tuberosum) mediante la aplicación de modelos de inteligencia artificial y técnicas de análisis de imágenes digitales, con el fin de contribuir a su evaluación, conservación y mejoramiento genético.
+Desarrollar un sistema automatizado para la caracterización morfológica de Mashua (*Tropaeolum tuberosum*) mediante la aplicación de modelos de inteligencia artificial y técnicas de análisis de imágenes digitales, con el fin de contribuir a su evaluación, conservación y mejoramiento genético.
 
 ## **Objetivos específicos**
 
