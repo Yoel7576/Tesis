@@ -39,11 +39,11 @@ Desarrollar un sistema automatizado para la caracterización morfológica de Mas
 
 ## **Objetivos específicos**
 
-- Recolectar y documentar imágenes de tubérculos y estructuras vegetativas de diferentes accesiones de Mashua en distintas condiciones de cultivo.
+- Recolectar y documentar imágenes de tubérculos de diferentes accesiones de Mashua.
 
 - Diseñar una metodología de procesamiento de imágenes que permita la extracción precisa de características morfológicas relevantes (forma, tamaño, color, textura, entre otras).
 
-- Implementar y entrenar modelos de inteligencia artificial (como redes neuronales convolucionales) para la clasificación y caracterización automatizada de las accesiones de Mashua.
+- Implementar y entrenar un modelo de inteligencia artificial (como redes neuronales convolucionales) para la clasificación y caracterización automatizada de las accesiones de Mashua.
 
 
 # REFERENCIAS BIBLIOGRAFICAS 
