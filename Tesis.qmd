@@ -18,15 +18,19 @@ editor_options:
 
 Caracterización morfológica automatizada de Mashua (*Tropaeolum tuberosum*) mediante modelos de inteligencia artificial y análisis de imágenes.
 
-# PLANTEAMIENTO DEL PROBLEMA
+# **PLANTEAMIENTO DEL PROBLEMA**
 
-La Mashua (*Tropaeolum tuberosum*) es un tubérculo andino de reproducción vegetativa con alto valor nutricional, agronómico y fitoquímico (Arteaga-Cano et al., 2022). Sin embargo, su diversidad morfológica ha sido poco estudiada por el desinterés comercial y la falta de conservación (Pacheco Arenas, 2015).
-En un contexto de creciente digitalización y demanda de herramientas automatizadas en la agricultura, la detección basada en el aprendizaje automático se ha consolidado como el principal foco de investigación, ya que permite la medición directa y precisa de patrones morfológicos mediante el uso de inteligencia artificial (IA) y análisis de imágenes (Chen et al., 2024). Sin embargo, en el caso de la mashua, el desarrollo e implementación de este tipo de tecnologías aún es incipiente o prácticamente inexistente.
-Tradicionalmente, la evaluación de la calidad y características morfológicas de semillas y productos andinos ha dependido de métodos destructivos, lentos y basados en la experiencia de analistas, lo que limita su eficiencia y puede generar inconsistencias (ElMasry et al., 2019). 
-En este sentido, el análisis automático de imágenes combinado con modelos de aprendizaje automático ofrece una nueva perspectiva para el estudio de la diversidad morfológica de la mashua (Medeiros et al., 2020). Por tanto, el problema que se plantea es la ausencia de un sistema automatizado de gestión morfológica que utilice inteligencia artificial y análisis de datos para caracterizar de manera eficiente la diversidad de la mashua.
+La mashua (*Tropaeolum tuberosum*) es un tubérculo andino de reproducción vegetativa que destaca por su alto valor nutricional, agronómico y fitoquímico (Arteaga-Cano et al., 2022). A pesar de ello, su diversidad morfológica ha sido poco explorada, en gran parte debido al escaso interés comercial y a la limitada implementación de estrategias de conservación (Pacheco Arenas, 2015).
+
+En el contexto actual de digitalización acelerada y creciente demanda por soluciones agrícolas automatizadas, la detección basada en aprendizaje automático ha emergido como una de las principales líneas de investigación. Esta tecnología permite una medición directa, precisa y no destructiva de rasgos morfológicos mediante inteligencia artificial (IA) y análisis de imágenes (Chen et al., 2024). Sin embargo, en el caso de la mashua, el desarrollo y aplicación de estas herramientas aún se encuentran en una etapa incipiente o prácticamente inexistente.
+
+Tradicionalmente, la evaluación de características morfológicas y de calidad en semillas y cultivos andinos ha dependido de técnicas manuales, destructivas y altamente subjetivas, lo que reduce la eficiencia del proceso y genera posibles inconsistencias (ElMasry et al., 2019). 
+
+En este escenario, la integración de modelos de aprendizaje automático con análisis automatizado de imágenes representa una alternativa innovadora y eficaz para estudiar la variabilidad morfológica de la mashua (Medeiros et al., 2020). Por tanto, el problema que se plantea es la ausencia de un sistema automatizado de gestión morfológica que utilice inteligencia artificial y análisis de datos para caracterizar de manera eficiente la diversidad de la mashua.
 
 
 # PREGUNTA DEL PROBLEMA
+
 
 ¿Cómo puede automatizarse la caracterización morfológica de la mashua (*Tropaeolum tuberosum*) mediante el uso de modelos de inteligencia artificial y análisis de imágenes?
 
@@ -39,24 +43,225 @@ Desarrollar un sistema automatizado para la caracterización morfológica de Mas
 
 ## **Objetivos específicos**
 
-- Recolectar y documentar imágenes de tubérculos de diferentes accesiones de Mashua.
+-Desarrollar un sistema de procesamiento de imágenes que permita la extracción precisa de características morfológicas relevantes de mashua.
 
-- Diseñar una metodología de procesamiento de imágenes que permita la extracción precisa de características morfológicas relevantes (forma, tamaño, color, textura, entre otras).
+-Diseñar y entrenar modelos de inteligencia artificial basados en algoritmos de detección y segmentación, como YOLOv5, para la clasificación automatizada de tubérculos de Tropaeolum tuberosum según sus características morfológicas.
 
-- Implementar y entrenar un modelo de inteligencia artificial (como redes neuronales convolucionales) para la clasificación y caracterización automatizada de las accesiones de Mashua.
+-Evaluar la eficacia y la precisión del sistema propuesto mediante métricas de validación y pruebas con imágenes de distintas variedades de mashua.
 
 
-# REFERENCIAS BIBLIOGRAFICAS 
+# **ANTECEDENTES**
 
-- Arteaga-Cano, D., Chacón-Calvo, L., Samamé-Herrera, V., Valverde-Cerna, D., & Paucar-Menacho, L. M. (2022). Mashua (tropaeolum tuberosum): Composición nutricional, características químicas, compuestos bioactivos y propiedades beneficiosas para la salud. Agroindustrial Science, 12(1), Article 1. https://doi.org/10.17268/agroind.sci.2022.01.12
+Originaria de los Andes de Sudamérica, la mashua (*Tropaeolum tuberosum*) es una planta herbácea perenne que ha sido domesticada y cultivada durante miles de años en países como Ecuador, Bolivia y Perú (Valle-Parra et al., 2020). Taxonómicamente es una angiosperma, perteneciente a la familia Tropaeolaceae (Aguilar-Galvez et al., 2020). A lo largo de su historia, este cultivo ha sido valorado por las comunidades andinas no solo por su importancia cultural, sino también por sus reconocidas propiedades nutricionales y medicinales (Takahashi et al., 2024). No obstante, a pesar de su relevancia, la investigación científica sobre la mashua sigue siendo limitada, lo que ha dificultado la implementación de programas de mejoramiento genético y ha restringido su aprovechamiento y comercialización (Valle-Parra et al., 2018).
 
-- Chen, C., Bai, M., Wang, T., Zhang, W., Yu, H., Pang, T., Wu, J., Li, Z., & Wang, X. (2024). An RGB image dataset for seed germination prediction and vigor detection—Maize. Frontiers in Plant Science, 15. https://doi.org/10.3389/fpls.2024.1341335
+Este tubérculo andino destaca por su notable adaptabilidad a condiciones extremas, cultivándose exitosamente en altitudes que oscilan entre los 2400 y los 4300 m s.n.m (Siqueira et al., 2023). Además, se han identificado más de 100 ecotipos, lo que refleja una importante diversidad morfológica dentro de la especie (Grau et al., 2025). Su elevado contenido en antioxidantes, vitaminas, aminoácidos esenciales y compuestos bioactivos le confiere un alto valor nutricional y funcional, razón por la cual es empleado en diversas aplicaciones tradicionales, medicinales e industriales (Chirinos et al., 2008). El estudio de las características morfológicas de la mashua resulta clave en el desarrollo de nuevas variedades que puedan responder a las demandas actuales de los sistemas agrícolas y del mercado (Fajardo et al., 2013).
 
-- ElMasry, G., Mandour, N., Wagner, M.-H., Demilly, D., Verdier, J., Belin, E., & Rousseau, D. (2019). Utilization of computer vision and multispectral imaging techniques for classification of cowpea (Vigna unguiculata) seeds. Plant Methods, 15(1), 24. https://doi.org/10.1186/s13007-019-0411-2
+La caracterización morfológica constituye una herramienta esencial para identificar, conservar y explotar la variabilidad genética de los cultivos, lo que a su vez impulsa los programas de mejoramiento y fortalece la capacidad de adaptación frente a desafíos ambientales como el cambio climático (Ortiz Ortega et al., 2022). Sin embargo, en el caso de la mashua, los trabajos de caracterización morfológica han sido escasos y, en su mayoría, se han basado en observaciones visuales y descripciones manuales de atributos como la forma, el tamaño y el color de los tubérculos, además de rasgos de la parte aérea (Luziatelli et al., 2023). Aunque estas metodologías han proporcionado información inicial sobre la diversidad fenotípica, presentan limitaciones significativas, tales como la subjetividad en la evaluación, la baja reproducibilidad de los resultados y el elevado tiempo necesario para su ejecución (Hasankhani & Navid, 2012).
 
-- Medeiros, A. D. de, Pinheiro, D. T., Xavier, W. A., Silva, L. J. da, & Dias, D. C. F. dos S. (2020). Clasificación de calidad de las semillas de Jatropha curcas mediante imágenes radiográficas y aprendizaje automático. Industrial Crops and Products, 146, 112162. https://doi.org/10.1016/j.indcrop.2020.112162
+Ante este panorama, la incorporación de tecnologías emergentes, como la inteligencia artificial y el análisis de imágenes, representa una alternativa innovadora para optimizar el proceso de caracterización morfológica (Iotti et al., 2002). Estas herramientas permiten desarrollar metodologías automatizadas, objetivas y escalables, que faciliten el análisis eficiente de la variabilidad genética de la mashua y contribuyan a su conservación y aprovechamiento (Rashid & Kausik, 2024).
 
-- Pacheco Arenas, E. S. (2015). Caracterización morfológica y molecular de mashua (Tropaeolum tuberosum Ruiz y Pavón) de los departamentos de Cusco y Cajamarca [Universidad Nacional Agraria La Molina]. https://hdl.handle.net/20.500.12996/2095
+Diversas investigaciones han evidenciado que la caracterización morfológica en cultivos andinos constituye una herramienta esencial para identificar características distintivas y patrones de variación fenotípica, aspectos que resultan cruciales para orientar estrategias de conservación y el diseño de programas de mejoramiento genético (Samal & Choudhury, 2020). En el caso de mashua, la mayoría de estudios de caracterización morfológica se basan en observaciones visuales y descripciones manuales. Por ejemplo, Valle Parra, (2017) realizó la caracterización morfológica y fenológica de seis variedades de mashua en Ecuador, revelando una amplia variabilidad en atributos como la coloración de flores y tubérculos, así como en variables cuantitativas y fenológicas. El estudio destacó variedades con características sobresalientes como precocidad y diferencias en el contenido químico, resaltando el potencial de esta información para la selección de materiales destinados a la producción comercial. De manera complementaria, en el Perú, un estudio desarrollado por Mirano Papel, (2018) evaluó 113 accesiones de mashua en el Centro Agronómico K’ayra (Cusco), utilizando descriptores del IPGRI. Los resultados mostraron una importante diversidad morfológica, con predominancia del morfotipo 5 en un 81.10 % de las accesiones, así como variaciones significativas en el hábito de crecimiento, enroscamiento, cobertura del suelo y color del tallo. Ambos trabajos evidencian la riqueza fenotípica de la mashua y resaltan la necesidad de continuar con estudios de caracterización morfológica y agronómica que permitan identificar genotipos con atributos deseables para programas de mejoramiento, adaptación a diferentes condiciones agroecológicas y preferencias de mercado.
+
+En este contexto, estudios recientes en papa, maíz y otras especies han demostrado que la visión artificial combinada con modelos de aprendizaje profundo puede aplicarse con éxito en la caracterización automatizada de características morfológicas. Feldman et al., (2023) desarrollaron una estrategia de fenotipado escalable y de bajo costo para caracterizar morfológicamente tubérculos de papa, utilizando imágenes digitales para medir forma, tamaño, color de piel y pulpa. El objetivo fue superar las limitaciones de las mediciones tradicionales en programas de mejoramiento. Se capturaron imágenes de 189 progenies F1 bajo condiciones estandarizadas, y se aplicaron algoritmos de visión artificial para la extracción cuantitativa de características. Los resultados evidenciaron que las mediciones obtenidas fueron confiables, reproducibles y hereditarias, lo cual las hace útiles en la selección simultánea de múltiples rasgos. Este enfoque es aplicable al estudio de tubérculos andinos como la mashua, al permitir caracterizaciones objetivas de su diversidad morfológica.
+Sharma et al., (2025) propusieron un sistema de estimación de masa y clasificación de tubérculos de papa mediante imágenes 2D multiángulo. El estudio incluyó 23 cultivares de papa cuyas imágenes se capturaron desde ángulos superior y lateral. Se emplearon modelos de regresión lineal y aleatoria para estimar la masa y clasificar tamaños. La metodología arrojó una precisión de hasta R² = 0.99 con errores mínimos (RMSE = 3.68 g). Estos hallazgos sugieren que la morfometría digital, combinada con algoritmos de aprendizaje automático, puede optimizar la clasificación de tubérculos como la mashua, reduciendo errores subjetivos y mejorando la eficiencia del proceso.
+
+Mhango et al., (2022) emplearon imágenes de drones y redes neuronales convolucionales (CNN) para estimar la densidad de tallos de papa mediante la detección de meristemos. Se desarrollaron nuevos índices de color para identificar hojas meristemáticas y se generaron 500 imágenes pseudoetiquetadas para entrenar el modelo. En comparación con métodos tradicionales, el CNN alcanzó un error cuadrático medio normalizado (nRMSE) de 0.09 y una precisión superior (IOU = 0.56), demostrando su validez para tareas agrícolas complejas.
+Lozada-Portilla et al., (2021) diseñó un modelo de CNN para la detección del tizón tardío en hojas de papa a partir del conjunto de datos PlantVillage. El modelo logró una precisión del 90 % y un puntaje F1 del 91 %, superando a arquitecturas como AlexNet y VGG16. El estudio destacó la utilidad de las CNN en el monitoreo sanitario de cultivos y su escalabilidad a plataformas móviles. Esta capacidad de clasificación precisa puede adaptarse a la detección de enfermedades o anomalías visuales en mashua, promoviendo sistemas de alerta temprana basados en imágenes.
+
+Si et al., (2018) también contribuyó con un sistema automatizado para estimar la relación longitud/anchura en papa, utilizando imágenes de video durante su clasificación en cinta transportadora. Su algoritmo alcanzó una precisión mayor al 95 % y mostró una alta correlación con las mediciones manuales, validando su aplicabilidad para evaluar forma y tamaño en tubérculos de forma rápida y confiable.
+
+Oppenheim et al., (2019) presentaron un modelo de clasificación de enfermedades de papa mediante redes neuronales profundas entrenadas con imágenes RGB. Se clasificaron cinco categorías (cuatro enfermedades y una clase sana) con una precisión promedio superior al 90 %, destacando el uso de CNN como alternativa viable para diagnósticos visuales en campo. 
+Divyanth et al., (2024) aplicó y comparó diferentes versiones del modelo YOLO (v5 a v11) para detectar ojos y cicatrices en tubérculos de papa. Entre todos, YOLOv10m obtuvo el mejor rendimiento (mAP@0.5 = 0.911) y menor tiempo de inferencia, mostrando su potencial en sistemas robóticos de muestreo. Esta tecnología puede implementarse para detectar rasgos morfológicos sutiles en tubérculos de mashua, automatizando procesos de selección y clasificación por calidad.
+
+Liu et al., (2025) propuso un enfoque innovador para la detección temprana de la germinación de semillas de maíz mediante imágenes RGB y visión artificial. Su estudio abordó una de las limitaciones tradicionales: la lentitud y subjetividad de las pruebas manuales de germinación. Se recolectaron imágenes en patrones definidos y se aplicaron tres métodos de predicción directa basados en características visuales (banda de rayas, límites y color). La combinación de estos tres métodos alcanzó una precisión del 73.5 %, un recuerdo del 87.5 % y un F1 score del 79.2 %, reduciendo el tiempo de prueba estándar en tres días. 
+Nehoshtan et al., (2021) desarrolló una tecnología basada en aprendizaje profundo para predecir la germinación y utilidad de semillas mediante imágenes RGB, enfocándose en la industria hortícola. A través del entrenamiento de clasificadores con lotes compuestos de semillas de distintas genéticas y condiciones, el sistema logró superar el 90 % de precisión y el 80 % de recuperación en la clasificación de semillas viables, incluso sin datos específicos por lote. Esta metodología, que evitó pérdidas por descartes innecesarios, resalta la posibilidad de predecir el comportamiento fisiológico a partir de señales morfológicas sutiles, lo cual podría ser adaptado para el análisis de germoplasma de mashua en programas de conservación y selección fenotípica.
+
+Samal & Choudhury, (2020) utilizaron aprendizaje automático y visión computacional para evaluar la calidad de semillas hortícolas con base en imágenes RGB. Su objetivo fue clasificar parámetros como vigor, viabilidad y germinabilidad sin recurrir a métodos destructivos. Aplicaron redes neuronales convolucionales que permitieron alcanzar altos niveles de precisión en la clasificación de muestras. Este estudio demuestra que la visión artificial puede ser un recurso confiable para tareas de evaluación masiva y automatizada de características fisiológicas y morfológicas, lo que se alinea con los objetivos de caracterización fenotípica automatizada en mashua mediante inteligencia artificial.
+En conjunto, estos antecedentes respaldan firmemente el uso de inteligencia artificial y análisis de imágenes como herramientas eficaces para la caracterización morfológica de cultivos. Aunque no se han encontrado aplicaciones directas en mashua, representa una oportunidad para superar las limitaciones de los métodos tradicionales, avanzar en su mejoramiento genético y contribuir a su conservación como recurso fitogenético andino de gran valor.
+
+
+# **HIPÓTESIS**
+
+Una caracterización morfológica más precisa, rápida y repetible que las técnicas tradicionales será posible con el desarrollo de un sistema automatizado basado en inteligencia artificial que utilice modelos de detección como YOLO entrenados con imágenes digitales de tubérculos de mashua (*Tropaeolum tuberosum*).  Este método ayudará a clasificar eficazmente las accesiones, identificar rasgos de interés agronómico y apoyar iniciativas de conservación y mejora genética, al facilitar la identificación de variaciones fenotípicas complejas y revelar patrones morfológicos sutiles que con frecuencia se pasan por alto en los análisis tradicionales.
+
+
+# **METODOLOGÍA**
+
+## **Entorno de trabajo**
+
+Las actividades de procesamiento de datos, entrenamiento de modelos y análisis de resultados se realizarán en entornos computacionales basados en Python, utilizando recursos locales y servicios en la nube.
+
+## **Población, muestra y muestreo**
+
+La unidad de análisis en esta investigación está constituida por un conjunto de 159 imágenes digitales de tubérculos de mashua (*Tropaeolum tuberosum*), previamente capturadas en condiciones parcialmente controladas. Las imágenes presentan fondo blanco o azul, algunas contienen escala de referencia visible, cortes transversales para observar la pulpa y un identificador alfanumérico único (por ejemplo, “M127”).
+
+No se trabajará con una población biológica directa, y dado que se utilizará la totalidad del material disponible, no se aplicará un método de muestreo probabilístico. Cada imagen será evaluada individualmente para fines de segmentación, clasificación y análisis morfológico automatizado.
+
+## **Variables de estudio**
+
+### **Variables morfológicas (según descriptores específicos de mashua)**
+
+Las características morfológicas de los tubérculos serán evaluadas tomando como referencia una serie de descriptores visuales previamente establecidos. Estas variables se extraerán tanto de forma manual como automática a partir del análisis de las imágenes digitales. Los descriptores seleccionados para la caracterización fueron adaptados de las propuestas realizadas por Mirano Papel, (2018) y Pacheco Arenas, (2015)
+
+
+- Tamaño del tubérculo (Pequeño, Mediano, Grande)
+
+- Uniformidad (Baja, Media, Alta)
+
+- Tipo de superficie (Rugosa, Lisa, Lisa y rugosa)
+
+- Forma del tubérculo (Cónico acortado, Cónico, Cónico alargado, Elipsoidal, Cilíndrico)
+
+- Color primario y secundario de la piel del tubérculo
+
+- Color de la pulpa (predominante y secundario)
+
+- Distribución del color secundario de la piel y pulpa
+
+- Profundidad de los ojos (Superficial, Semiprofundo, Profundo)
+
+- Tuberizaciones en ojos (Presencia/Ausencia)
+
+- Forma de coloración general del tubérculo (jaspeado, bandas, manchas)
+
+
+### **Variables de desempeño de los modelos de inteligencia artificial**
+
+Para evaluar la eficacia del sistema propuesto y seleccionar el modelo con mejor rendimiento, se considerarán tanto métricas cuantitativas como criterios cualitativos. Las variables clave incluirán:
+
+- **Precisión de detección (%):** capacidad del modelo para identificar correctamente las regiones de interés.
+
+- **Media de precisión promedio (mAP):** medida global del desempeño del modelo en múltiples clases, calculada sobre los conjuntos de validación y prueba.
+
+- **Intersección sobre unión (IoU):** proporción entre el área común y el área total entre la predicción del modelo y la anotación manual.
+
+- **Tiempo de inferencia por imagen (ms):** velocidad de procesamiento, fundamental para futuras aplicaciones en tiempo real o sistemas web.
+
+- **Evaluación visual:** análisis cualitativo de la coherencia entre las segmentaciones generadas por el modelo y las anotaciones manuales.
+
+
+Adicionalmente, se compararán los resultados automáticos con las evaluaciones manuales mediante análisis de correlación, lo cual permitirá medir el grado de coincidencia entre ambos enfoques. También se considerarán aspectos como la robustez del modelo frente a variabilidad en las imágenes, su complejidad computacional y la facilidad de implementación, con el objetivo de seleccionar el modelo más eficiente y aplicable a contextos reales.
+
+
+## **Métodos**
+
+### **Organización y anotación de imágenes**
+
+Las imágenes recolectadas serán organizadas en un repositorio estructurado y posteriormente anotadas utilizando la herramienta de código abierto Label Studio ([https://labelstud.io/](https://labelstud.io/)), mediante la técnica de segmentación por polígonos. Para cada imagen, se delimitarán manualmente las regiones de interés según las siguientes categorías:
+
+(1) tubérculo completo, (2) extremo apical, (3) extremo basal, (4) pulpa expuesta (en caso de que el tubérculo esté seccionado), (5) escala de referencia y (6) fondo.
+
+Estas clases permitirán desarrollar modelos de segmentación que distingan con precisión las principales estructuras morfológicas relevantes para la caracterización automatizada.
+
+Una vez completado el proceso de anotación, los datos serán exportados en formato COCO (Common Objects in Context), lo que facilitará su posterior conversión y adaptación al formato requerido por los modelos de detección que se implementarán.
+
+### **Registro y estructuración de datos fenotípicos**
+
+Las variables morfológicas descritas en la sección 6.2 serán inicialmente evaluadas de manera manual en cada imagen, siguiendo los descriptores específicos seleccionados para mashua. Esta información servirá como referencia base para la posterior comparación con los resultados generados por los modelos de inteligencia artificial.
+
+Los datos serán organizados en una hoja de cálculo digital, donde cada registro estará vinculado al identificador único asignado a la imagen correspondiente (por ejemplo, “M127”). Esta estructura permitirá una trazabilidad clara entre la observación manual y la predicción automatizada.
+
+
+### **Entrenamiento de modelos de inteligencia artificial**
+
+Para el desarrollo del sistema automatizado, se entrenarán modelos de detección y segmentación utilizando las arquitecturas YOLOv5 y YOLOv10, implementadas en el entorno de trabajo PyTorch.
+
+Las 159 imágenes disponibles serán divididas en tres conjuntos de datos: entrenamiento (70 %), validación (20 %) y prueba (10 %). Para fortalecer la capacidad del modelo frente a la variabilidad morfológica y de fondo, se aplicarán técnicas de aumento de datos tales como rotación, recorte, modificación de brillo y contraste, entre otros.
+
+Este proceso permitirá mejorar la generalización del modelo y su desempeño frente a imágenes con diferentes condiciones de captura.
+
+### **Evaluación de desempeño del modelo**
+
+Los modelos entrenados serán ejecutados con múltiples configuraciones de hiperparámetros, considerando al menos cinco (5) réplicas por configuración, con el objetivo de evaluar la consistencia de los resultados y detectar diferencias en el desempeño. Para determinar si existen diferencias estadísticamente significativas entre las configuraciones evaluadas, se aplicará un modelo lineal mixto.
+
+El procesamiento y análisis de los datos se realizará en el software estadístico R. Las variables de rendimiento, como la precisión, el mAP y el IoU, serán sometidas a un análisis de varianza (ANOVA) con un nivel de significancia del 5 %. En caso de identificarse diferencias significativas, se aplicará la prueba de comparación de medias de Tukey para determinar qué configuraciones presentan un desempeño superior.
+
+
+### **Desarrollo de plataforma digital**
+
+Se tiene previsto diseñar una plataforma web usando el framework Shiny de R, que permitirá cargar imágenes nuevas para su análisis morfológico automatizado. Esta aplicación incluirá:
+
+- Módulo de carga y análisis de imágenes
+
+- Repositorio visual interactivo con georreferenciación (si se obtienen ubicaciones)
+
+- Módulo de consulta y descarga de descriptores morfológicos generados
+
+- Manual de uso
+
+
+## **Cronograma**
+
+
+## **Análisis de datos**
+
+Se realizará el análisis estadístico en el software R, utilizando modelos lineales mixtos para evaluar diferencias entre las versiones de modelos entrenados. Se aplicará ANOVA con un nivel de significancia del 5 %, complementado por la prueba de Tukey para comparaciones múltiples.
+
+Además, se calcularán coeficientes de correlación de Pearson entre las mediciones manuales (basadas en descriptores) y las salidas del modelo automático. El análisis cualitativo incluirá revisión visual de segmentaciones y detección de errores frecuentes.
+
+
+# **REFERENCIAS**
+
+Aguilar-Galvez, A., Pedreschi, R., Carpentier, S., Chirinos, R., García-Ríos, D., & Campos, D. (2020). Proteomic analysis of mashua (Tropaeolum tuberosum) tubers subjected to postharvest treatments. Food Chemistry, 305, 125485. https://doi.org/10.1016/j.foodchem.2019.125485
+
+Arteaga-Cano, D., Chacón-Calvo, L., Samamé-Herrera, V., Valverde-Cerna, D., & Paucar-Menacho, L. M. (2022). Mashua (Tropaeolum tuberosum): Composición nutricional, características químicas, compuestos bioactivos y propiedades beneficiosas para la salud. Agroindustrial Science, 12(1), Article 1. https://doi.org/10.17268/agroind.sci.2022.01.12
+
+Chen, C., Bai, M., Wang, T., Zhang, W., Yu, H., Pang, T., Wu, J., Li, Z., & Wang, X. (2024). An RGB image dataset for seed germination prediction and vigor detection—Maize. Frontiers in Plant Science, 15. https://doi.org/10.3389/fpls.2024.1341335
+
+Chirinos, R., Campos, D., Costa, N., Arbizu, C., Pedreschi, R., & Larondelle, Y. (2008). Phenolic profiles of andean mashua (Tropaeolum tuberosum Ruíz & Pavón) tubers: Identification by HPLC-DAD and evaluation of their antioxidant activity. Food Chemistry, 106(3), 1285-1298. https://doi.org/10.1016/j.foodchem.2007.07.024
+
+Divyanth, L. G., Khanal, S. R., Paudel, A., Mattupalli, C., & Karkee, M. (2024). Efficient detection of eyes on potato tubers using deep-learning for robotic high-throughput sampling. Frontiers in Plant Science, 15, 1512632. https://doi.org/10.3389/fpls.2024.1512632
+
+ElMasry, G., Mandour, N., Wagner, M.-H., Demilly, D., Verdier, J., Belin, E., & Rousseau, D. (2019). Utilization of computer vision and multispectral imaging techniques for classification of cowpea (Vigna unguiculata) seeds. Plant Methods, 15(1), 24. https://doi.org/10.1186/s13007-019-0411-2
+
+Fajardo, D., Haynes, K. G., & Jansky, S. (2013). Starch Characteristics of Modern and Heirloom Potato Cultivars. American Journal of Potato Research, 90(5), 460-469. https://doi.org/10.1007/s12230-013-9320-5
+Feldman, M. J., Park, J., Miller, N., Wakholi, C., Greene, K., Abbasi, A., Rippner, D. A., Navarre, D., Carley, C. S., Shannon, L. M., & Novy, R. (2023). A scalable, low-cost phenotyping strategy to assess tuber size, shape, and the colorimetric features of tuber skin and flesh in potato breeding populations. 2023.08.14.553050. https://doi.org/10.1101/2023.08.14.553050
+
+Grau, A., Andrade, N. J. P., & Sørensen, M. (2025). Chapter 12 - Traditional uses, processes, and markets: The case of Mashua (Tropaeolum tuberosum Ruíz & Pav.). En M. P. Cereda & O. F. Vilpoux (Eds.), Traditional Starch Food Products (Vol. 4, pp. 269-278). Academic Press. https://doi.org/10.1016/B978-0-323-90844-3.00009-3
+
+Hasankhani, R., & Navid, H. (2012). Potato Sorting Based on Size and Color in Machine Vision System. Journal of Agricultural Science, 4(5), Article 5. https://doi.org/10.5539/jas.v4n5p235
+
+Iotti, M., Amicucci, A., Stocchi, V., & Zambonelli, A. (2002). Morphological and molecular characterization of mycelia of some Tuber species in pure culture. New Phytologist, 155(3), 499-505. https://doi.org/10.1046/j.1469-8137.2002.00486.x
+
+Liu, X., Zhang, Z., Li, Y., Igathinathane, C., Yu, J., Rui, Z., Azizi, A., Wang, X., Pourreza, A., & Zhang, M. (2025). Early-stage detection of maize seed germination based on RGB image and machine vision. Smart Agricultural Technology, 11, 100927. https://doi.org/10.1016/j.atech.2025.100927
+
+Lozada-Portilla, W. A., Suarez-Barón, M. J., & Avendaño-Fernández, E. (2021). Aplicación de redes neuronales convolucionales para la detección del tizón tardío Phytophthora infestans en papa Solanum tuberosum. Revista U.D.C.A Actualidad & Divulgación Científica, 24(2), Article 2. https://doi.org/10.31910/rudca.v24.n2.2021.1917
+
+Luziatelli, G., Alandia, G., Rodríguez, J. P., Manrique, I., Jacobsen, S.-E., & Sørensen, M. (2023). Ethnobotany of Andean minor tuber crops: Tradition and innovation—Oca (Oxalis tuberosa Molina —Oxalidaceae), Mashua (Tropaeolum tuberosum Ruíz & Pav.—Tropaeoleaceae) and Ulluco (Ullucus tuberosus Caldas—Basellaceae). En M. Pascoli Cereda & O. François Vilpoux (Eds.), Varieties and Landraces: Cultural Practices and Traditional Uses (Vol. 2, pp. 79-100). Academic Press. https://doi.org/10.1016/B978-0-323-90057-7.00009-7
+
+Medeiros, A. D. de, Pinheiro, D. T., Xavier, W. A., Silva, L. J. da, & Dias, D. C. F. dos S. (2020). Clasificación de calidad de las semillas de Jatropha curcas mediante imágenes radiográficas y aprendizaje automático. Industrial Crops and Products, 146, 112162. https://doi.org/10.1016/j.indcrop.2020.112162
+
+Mhango, J. K., Grove, I. G., Hartley, W., Harris, E. W., & Monaghan, J. M. (2022). Applying colour-based feature extraction and transfer learning to develop a high throughput inference system for potato (Solanum tuberosum L.) stems with images from unmanned aerial vehicles after canopy consolidation. Precision Agriculture, 23(2), 643-669. https://doi.org/10.1007/s11119-021-09853-4
+
+Mirano Papel, M. E. (2018). Caracterización morfológica de 113 entradas de Mashua (Tropaeolum Tuberosum), en el sector de Chiri Unuyoc Kayra—Cusco [Tesis de Título Profecional, Universidad Nacional de San Antonio Abad del Cusco]. https://repositorio.unsaac.edu.pe/handle/20.500.12918/4757
+
+Nehoshtan, Y., Carmon, E., Yaniv, O., Ayal, S., & Rotem, O. (2021). Robust seed germination prediction using deep learning and RGB image data. Scientific Reports, 11(1), 22030. https://doi.org/10.1038/s41598-021-01712-6
+
+Oppenheim, D., Shani, G., Erlich, O., & Tsror, L. (2019). Using Deep Learning for Image-Based Potato Tuber Disease Detection. Phytopathology®, 109(6), 1083-1087. https://doi.org/10.1094/PHYTO-08-18-0288-R
+
+Ortiz Ortega, E., Hosseinian, H., Rosales López, M. J., Rodríguez Vera, A., & Hosseini, S. (2022). Characterization Techniques for Morphology Analysis. En E. Ortiz Ortega, H. Hosseinian, I. B. Aguilar Meza, M. J. Rosales López, A. Rodríguez Vera, & S. Hosseini (Eds.), Material Characterization Techniques and Applications (pp. 1-45). Springer. https://doi.org/10.1007/978-981-16-9569-8_1
+
+Pacheco Arenas, E. S. (2015). Caracterización morfológica y molecular de mashua (Tropaeolum tuberosum Ruiz y Pavón) de los departamentos de Cusco y Cajamarca [Tesis de Maestría, Universidad Nacional Agraria La Molina]. https://hdl.handle.net/20.500.12996/2095
+
+Rashid, A. B., & Kausik, M. A. K. (2024). AI revolutionizing industries worldwide: A comprehensive overview of its diverse applications. Hybrid Advances, 7, 100277. https://doi.org/10.1016/j.hybadv.2024.100277
+
+Samal, A., & Choudhury, S. D. (Eds.). (2020). Intelligent Image Analysis for Plant Phenotyping. CRC Press. https://doi.org/10.1201/9781315177304
+
+Sharma, A. K., Zotarelli, L., Zare, A., & Sharma, L. K. (2025). Automated potato tuber mass estimation and grading with multiangle 2D images. Smart Agricultural Technology, 10, 100832. https://doi.org/10.1016/j.atech.2025.100832
+
+Si, Y., Sankaran, S., Knowles, N. R., & Pavek, M. J. (2018). Image-based automated potato tuber shape evaluation. Journal of Food Measurement and Characterization, 12(2), 702-709. https://doi.org/10.1007/s11694-017-9683-2
+
+Siqueira, M. V. B. M., do Nascimento, W. F., Pereira, D. A., Cruz, J. G., Vendrame, L. P. de C., & Veasey, E. A. (2023). Chapter 2—Origin, domestication, and evolution of underground starchy crops of South America. En M. Pascoli Cereda & O. François Vilpoux (Eds.), Starchy Crops Morphology, Extraction, Properties and Applications (pp. 17-42). Academic Press. https://doi.org/10.1016/B978-0-323-90058-4.00011-6
+
+Takahashi, C., Vílchez, H., Poemape, J., Alvia, A., & Olortegui, A. (2024). Diversidad de compuestos bioactivos del Tropaeolum tuberosum (mashua). Revista Colombiana de Ciencias Químico-Farmacéuticas, 52(3), Article 3. https://revistas.unal.edu.co/index.php/rccquifa/article/view/108840
+
+Valle Parra, M. A. (2017). Caracterización morfológica y fenología en variedades de Tropaeolum tuberosum  (Mashua) de interés medicinal [Tesis de Maestría, Universidad Técnica de Ambato]. http://repositorio.uta.edu.ec/handle/123456789/26125
+
+Valle-Parra, M., Lalaleo, L., Pomboza-Tamaquiza, P., Ramírez-Estrada, K., Becerra-Martínez, E., & Hidalgo, D. (2020). From morphological traits to the food fingerprint of Tropaeolum tuberosum through metabolomics by NMR. LWT, 119, 108869. https://doi.org/10.1016/j.lwt.2019.108869
+
+Valle-Parra, M., Pomboza-Tamaquiza, P., Buenaño-Sanchez, M., Guevara-Freire, D., Chasi-Vizuete, P., Vásquez-Freitez, C., & Pérez-Salinas, M. (2018). Morphology, phenology, nutrients and yield of six accessions of Tropaeolum tuberosum Ruiz y Pav (mashua). Tropical and Subtropical Agroecosystems, 21(1), Article 1. https://doi.org/10.56369/tsaes.2574
+
+
 
 
 

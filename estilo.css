@@ -2,3 +2,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   text-align: justify;
 }
+.csl-entry {
+  padding-left: 2em;
+  text-indent: -2em;
+}
