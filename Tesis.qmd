@@ -202,22 +202,23 @@ Además, se calcularán coeficientes de correlación de Pearson entre las medici
 
 # **REFERENCIAS**
 
-Aguilar-Galvez, A., Pedreschi, R., Carpentier, S., Chirinos, R., García-Ríos, D., & Campos, D. (2020). Proteomic analysis of mashua (Tropaeolum tuberosum) tubers subjected to postharvest treatments. Food Chemistry, 305, 125485. https://doi.org/10.1016/j.foodchem.2019.125485
+Aguilar-Galvez, A., Pedreschi, R., Carpentier, S., Chirinos, R., García-Ríos, D., & Campos, D. (2020). Proteomic analysis of mashua (*Tropaeolum tuberosum*) tubers subjected to postharvest treatments. Food Chemistry, 305, 125485. https://doi.org/10.1016/j.foodchem.2019.125485
 
-Arteaga-Cano, D., Chacón-Calvo, L., Samamé-Herrera, V., Valverde-Cerna, D., & Paucar-Menacho, L. M. (2022). Mashua (Tropaeolum tuberosum): Composición nutricional, características químicas, compuestos bioactivos y propiedades beneficiosas para la salud. Agroindustrial Science, 12(1), Article 1. https://doi.org/10.17268/agroind.sci.2022.01.12
+Arteaga-Cano, D., Chacón-Calvo, L., Samamé-Herrera, V., Valverde-Cerna, D., & Paucar-Menacho, L. M. (2022). Mashua (*Tropaeolum tuberosum*): Composición nutricional, características químicas, compuestos bioactivos y propiedades beneficiosas para la salud. Agroindustrial Science, 12(1), Article 1. https://doi.org/10.17268/agroind.sci.2022.01.12
 
 Chen, C., Bai, M., Wang, T., Zhang, W., Yu, H., Pang, T., Wu, J., Li, Z., & Wang, X. (2024). An RGB image dataset for seed germination prediction and vigor detection—Maize. Frontiers in Plant Science, 15. https://doi.org/10.3389/fpls.2024.1341335
 
-Chirinos, R., Campos, D., Costa, N., Arbizu, C., Pedreschi, R., & Larondelle, Y. (2008). Phenolic profiles of andean mashua (Tropaeolum tuberosum Ruíz & Pavón) tubers: Identification by HPLC-DAD and evaluation of their antioxidant activity. Food Chemistry, 106(3), 1285-1298. https://doi.org/10.1016/j.foodchem.2007.07.024
+Chirinos, R., Campos, D., Costa, N., Arbizu, C., Pedreschi, R., & Larondelle, Y. (2008). Phenolic profiles of andean mashua (*Tropaeolum tuberosum* Ruíz & Pavón) tubers: Identification by HPLC-DAD and evaluation of their antioxidant activity. Food Chemistry, 106(3), 1285-1298. https://doi.org/10.1016/j.foodchem.2007.07.024
 
 Divyanth, L. G., Khanal, S. R., Paudel, A., Mattupalli, C., & Karkee, M. (2024). Efficient detection of eyes on potato tubers using deep-learning for robotic high-throughput sampling. Frontiers in Plant Science, 15, 1512632. https://doi.org/10.3389/fpls.2024.1512632
 
-ElMasry, G., Mandour, N., Wagner, M.-H., Demilly, D., Verdier, J., Belin, E., & Rousseau, D. (2019). Utilization of computer vision and multispectral imaging techniques for classification of cowpea (Vigna unguiculata) seeds. Plant Methods, 15(1), 24. https://doi.org/10.1186/s13007-019-0411-2
+ElMasry, G., Mandour, N., Wagner, M.-H., Demilly, D., Verdier, J., Belin, E., & Rousseau, D. (2019). Utilization of computer vision and multispectral imaging techniques for classification of cowpea (*Vigna unguiculata*) seeds. Plant Methods, 15(1), 24. https://doi.org/10.1186/s13007-019-0411-2
 
 Fajardo, D., Haynes, K. G., & Jansky, S. (2013). Starch Characteristics of Modern and Heirloom Potato Cultivars. American Journal of Potato Research, 90(5), 460-469. https://doi.org/10.1007/s12230-013-9320-5
+
 Feldman, M. J., Park, J., Miller, N., Wakholi, C., Greene, K., Abbasi, A., Rippner, D. A., Navarre, D., Carley, C. S., Shannon, L. M., & Novy, R. (2023). A scalable, low-cost phenotyping strategy to assess tuber size, shape, and the colorimetric features of tuber skin and flesh in potato breeding populations. 2023.08.14.553050. https://doi.org/10.1101/2023.08.14.553050
 
-Grau, A., Andrade, N. J. P., & Sørensen, M. (2025). Chapter 12 - Traditional uses, processes, and markets: The case of Mashua (Tropaeolum tuberosum Ruíz & Pav.). En M. P. Cereda & O. F. Vilpoux (Eds.), Traditional Starch Food Products (Vol. 4, pp. 269-278). Academic Press. https://doi.org/10.1016/B978-0-323-90844-3.00009-3
+Grau, A., Andrade, N. J. P., & Sørensen, M. (2025). Chapter 12 - Traditional uses, processes, and markets: The case of Mashua (*Tropaeolum tuberosum* Ruíz & Pav.). En M. P. Cereda & O. F. Vilpoux (Eds.), Traditional Starch Food Products (Vol. 4, pp. 269-278). Academic Press. https://doi.org/10.1016/B978-0-323-90844-3.00009-3
 
 Hasankhani, R., & Navid, H. (2012). Potato Sorting Based on Size and Color in Machine Vision System. Journal of Agricultural Science, 4(5), Article 5. https://doi.org/10.5539/jas.v4n5p235
 
@@ -225,15 +226,15 @@ Iotti, M., Amicucci, A., Stocchi, V., & Zambonelli, A. (2002). Morphological and
 
 Liu, X., Zhang, Z., Li, Y., Igathinathane, C., Yu, J., Rui, Z., Azizi, A., Wang, X., Pourreza, A., & Zhang, M. (2025). Early-stage detection of maize seed germination based on RGB image and machine vision. Smart Agricultural Technology, 11, 100927. https://doi.org/10.1016/j.atech.2025.100927
 
-Lozada-Portilla, W. A., Suarez-Barón, M. J., & Avendaño-Fernández, E. (2021). Aplicación de redes neuronales convolucionales para la detección del tizón tardío Phytophthora infestans en papa Solanum tuberosum. Revista U.D.C.A Actualidad & Divulgación Científica, 24(2), Article 2. https://doi.org/10.31910/rudca.v24.n2.2021.1917
+Lozada-Portilla, W. A., Suarez-Barón, M. J., & Avendaño-Fernández, E. (2021). Aplicación de redes neuronales convolucionales para la detección del tizón tardío *Phytophthora infestans* en papa Solanum tuberosum. Revista U.D.C.A Actualidad & Divulgación Científica, 24(2), Article 2. https://doi.org/10.31910/rudca.v24.n2.2021.1917
 
-Luziatelli, G., Alandia, G., Rodríguez, J. P., Manrique, I., Jacobsen, S.-E., & Sørensen, M. (2023). Ethnobotany of Andean minor tuber crops: Tradition and innovation—Oca (Oxalis tuberosa Molina —Oxalidaceae), Mashua (Tropaeolum tuberosum Ruíz & Pav.—Tropaeoleaceae) and Ulluco (Ullucus tuberosus Caldas—Basellaceae). En M. Pascoli Cereda & O. François Vilpoux (Eds.), Varieties and Landraces: Cultural Practices and Traditional Uses (Vol. 2, pp. 79-100). Academic Press. https://doi.org/10.1016/B978-0-323-90057-7.00009-7
+Luziatelli, G., Alandia, G., Rodríguez, J. P., Manrique, I., Jacobsen, S.-E., & Sørensen, M. (2023). Ethnobotany of Andean minor tuber crops: Tradition and innovation—Oca (*Oxalis tuberosa* Molina —Oxalidaceae), Mashua (*Tropaeolum tuberosum* Ruíz & Pav.—Tropaeoleaceae) and Ulluco (*Ullucus tuberosus* Caldas—Basellaceae). En M. Pascoli Cereda & O. François Vilpoux (Eds.), Varieties and Landraces: Cultural Practices and Traditional Uses (Vol. 2, pp. 79-100). Academic Press. https://doi.org/10.1016/B978-0-323-90057-7.00009-7
 
-Medeiros, A. D. de, Pinheiro, D. T., Xavier, W. A., Silva, L. J. da, & Dias, D. C. F. dos S. (2020). Clasificación de calidad de las semillas de Jatropha curcas mediante imágenes radiográficas y aprendizaje automático. Industrial Crops and Products, 146, 112162. https://doi.org/10.1016/j.indcrop.2020.112162
+Medeiros, A. D. de, Pinheiro, D. T., Xavier, W. A., Silva, L. J. da, & Dias, D. C. F. dos S. (2020). Clasificación de calidad de las semillas de *Jatropha curcas* mediante imágenes radiográficas y aprendizaje automático. Industrial Crops and Products, 146, 112162. https://doi.org/10.1016/j.indcrop.2020.112162
 
-Mhango, J. K., Grove, I. G., Hartley, W., Harris, E. W., & Monaghan, J. M. (2022). Applying colour-based feature extraction and transfer learning to develop a high throughput inference system for potato (Solanum tuberosum L.) stems with images from unmanned aerial vehicles after canopy consolidation. Precision Agriculture, 23(2), 643-669. https://doi.org/10.1007/s11119-021-09853-4
+Mhango, J. K., Grove, I. G., Hartley, W., Harris, E. W., & Monaghan, J. M. (2022). Applying colour-based feature extraction and transfer learning to develop a high throughput inference system for potato (*Solanum tuberosum* L.) stems with images from unmanned aerial vehicles after canopy consolidation. Precision Agriculture, 23(2), 643-669. https://doi.org/10.1007/s11119-021-09853-4
 
-Mirano Papel, M. E. (2018). Caracterización morfológica de 113 entradas de Mashua (Tropaeolum Tuberosum), en el sector de Chiri Unuyoc Kayra—Cusco [Tesis de Título Profecional, Universidad Nacional de San Antonio Abad del Cusco]. https://repositorio.unsaac.edu.pe/handle/20.500.12918/4757
+Mirano Papel, M. E. (2018). Caracterización morfológica de 113 entradas de Mashua (*Tropaeolum Tuberosum*), en el sector de Chiri Unuyoc Kayra—Cusco [Tesis de Título Profecional, Universidad Nacional de San Antonio Abad del Cusco]. https://repositorio.unsaac.edu.pe/handle/20.500.12918/4757
 
 Nehoshtan, Y., Carmon, E., Yaniv, O., Ayal, S., & Rotem, O. (2021). Robust seed germination prediction using deep learning and RGB image data. Scientific Reports, 11(1), 22030. https://doi.org/10.1038/s41598-021-01712-6
 
@@ -241,7 +242,7 @@ Oppenheim, D., Shani, G., Erlich, O., & Tsror, L. (2019). Using Deep Learning fo
 
 Ortiz Ortega, E., Hosseinian, H., Rosales López, M. J., Rodríguez Vera, A., & Hosseini, S. (2022). Characterization Techniques for Morphology Analysis. En E. Ortiz Ortega, H. Hosseinian, I. B. Aguilar Meza, M. J. Rosales López, A. Rodríguez Vera, & S. Hosseini (Eds.), Material Characterization Techniques and Applications (pp. 1-45). Springer. https://doi.org/10.1007/978-981-16-9569-8_1
 
-Pacheco Arenas, E. S. (2015). Caracterización morfológica y molecular de mashua (Tropaeolum tuberosum Ruiz y Pavón) de los departamentos de Cusco y Cajamarca [Tesis de Maestría, Universidad Nacional Agraria La Molina]. https://hdl.handle.net/20.500.12996/2095
+Pacheco Arenas, E. S. (2015). Caracterización morfológica y molecular de mashua (*Tropaeolum tuberosum* Ruiz y Pavón) de los departamentos de Cusco y Cajamarca [Tesis de Maestría, Universidad Nacional Agraria La Molina]. https://hdl.handle.net/20.500.12996/2095
 
 Rashid, A. B., & Kausik, M. A. K. (2024). AI revolutionizing industries worldwide: A comprehensive overview of its diverse applications. Hybrid Advances, 7, 100277. https://doi.org/10.1016/j.hybadv.2024.100277
 
@@ -253,13 +254,13 @@ Si, Y., Sankaran, S., Knowles, N. R., & Pavek, M. J. (2018). Image-based automat
 
 Siqueira, M. V. B. M., do Nascimento, W. F., Pereira, D. A., Cruz, J. G., Vendrame, L. P. de C., & Veasey, E. A. (2023). Chapter 2—Origin, domestication, and evolution of underground starchy crops of South America. En M. Pascoli Cereda & O. François Vilpoux (Eds.), Starchy Crops Morphology, Extraction, Properties and Applications (pp. 17-42). Academic Press. https://doi.org/10.1016/B978-0-323-90058-4.00011-6
 
-Takahashi, C., Vílchez, H., Poemape, J., Alvia, A., & Olortegui, A. (2024). Diversidad de compuestos bioactivos del Tropaeolum tuberosum (mashua). Revista Colombiana de Ciencias Químico-Farmacéuticas, 52(3), Article 3. https://revistas.unal.edu.co/index.php/rccquifa/article/view/108840
+Takahashi, C., Vílchez, H., Poemape, J., Alvia, A., & Olortegui, A. (2024). Diversidad de compuestos bioactivos del *Tropaeolum tuberosum* (mashua). Revista Colombiana de Ciencias Químico-Farmacéuticas, 52(3), Article 3. https://revistas.unal.edu.co/index.php/rccquifa/article/view/108840
 
-Valle Parra, M. A. (2017). Caracterización morfológica y fenología en variedades de Tropaeolum tuberosum  (Mashua) de interés medicinal [Tesis de Maestría, Universidad Técnica de Ambato]. http://repositorio.uta.edu.ec/handle/123456789/26125
+Valle Parra, M. A. (2017). Caracterización morfológica y fenología en variedades de *Tropaeolum tuberosum*  (Mashua) de interés medicinal [Tesis de Maestría, Universidad Técnica de Ambato]. http://repositorio.uta.edu.ec/handle/123456789/26125
 
-Valle-Parra, M., Lalaleo, L., Pomboza-Tamaquiza, P., Ramírez-Estrada, K., Becerra-Martínez, E., & Hidalgo, D. (2020). From morphological traits to the food fingerprint of Tropaeolum tuberosum through metabolomics by NMR. LWT, 119, 108869. https://doi.org/10.1016/j.lwt.2019.108869
+Valle-Parra, M., Lalaleo, L., Pomboza-Tamaquiza, P., Ramírez-Estrada, K., Becerra-Martínez, E., & Hidalgo, D. (2020). From morphological traits to the food fingerprint of *Tropaeolum tuberosum* through metabolomics by NMR. LWT, 119, 108869. https://doi.org/10.1016/j.lwt.2019.108869
 
-Valle-Parra, M., Pomboza-Tamaquiza, P., Buenaño-Sanchez, M., Guevara-Freire, D., Chasi-Vizuete, P., Vásquez-Freitez, C., & Pérez-Salinas, M. (2018). Morphology, phenology, nutrients and yield of six accessions of Tropaeolum tuberosum Ruiz y Pav (mashua). Tropical and Subtropical Agroecosystems, 21(1), Article 1. https://doi.org/10.56369/tsaes.2574
+Valle-Parra, M., Pomboza-Tamaquiza, P., Buenaño-Sanchez, M., Guevara-Freire, D., Chasi-Vizuete, P., Vásquez-Freitez, C., & Pérez-Salinas, M. (2018). Morphology, phenology, nutrients and yield of six accessions of *Tropaeolum tuberosum* Ruiz y Pav (mashua). Tropical and Subtropical Agroecosystems, 21(1), Article 1. https://doi.org/10.56369/tsaes.2574
 
 
 
